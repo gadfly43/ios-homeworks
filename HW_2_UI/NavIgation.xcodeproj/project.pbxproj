@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680C9A4E27F9E7FE0084FFDE /* pic1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 680C9A4D27F9E7FE0084FFDE /* pic1.jpeg */; };
+		6812E21527F582C6002F6599 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6812E21427F582C6002F6599 /* ProfileHeaderView.swift */; };
 		6818338027F1EC1200E3CD63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818337F27F1EC1200E3CD63 /* AppDelegate.swift */; };
 		6818338227F1EC1200E3CD63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818338127F1EC1200E3CD63 /* SceneDelegate.swift */; };
 		6818338927F1EC1300E3CD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6818338827F1EC1300E3CD63 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		680C9A4D27F9E7FE0084FFDE /* pic1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic1.jpeg; path = ../../../../../Downloads/pic1.jpeg; sourceTree = "<group>"; };
+		6812E21427F582C6002F6599 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		6818337C27F1EC1200E3CD63 /* NavIgation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavIgation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6818337F27F1EC1200E3CD63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6818338127F1EC1200E3CD63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6812E21127F5822E002F6599 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6818339A27F1ECE900E3CD63 /* ProfileViewController.swift */,
+				6812E21427F582C6002F6599 /* ProfileHeaderView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		6818337327F1EC1200E3CD63 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +80,7 @@
 				6818339C27F1ED5C00E3CD63 /* TabBarController.swift */,
 				6818339E27F1ED8000E3CD63 /* Post.swift */,
 				6818338827F1EC1300E3CD63 /* Assets.xcassets */,
+				680C9A4D27F9E7FE0084FFDE /* pic1.jpeg */,
 				6818338D27F1EC1300E3CD63 /* Info.plist */,
 				6818339927F1ECA000E3CD63 /* ViewControllers */,
 			);
@@ -77,9 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				6818339727F1EC8A00E3CD63 /* InfoViewController.swift */,
-				6818339A27F1ECE900E3CD63 /* ProfileViewController.swift */,
 				6818339327F1EC7700E3CD63 /* FeedViewController.swift */,
 				6818339527F1EC7F00E3CD63 /* PostViewController.swift */,
+				6812E21127F5822E002F6599 /* Profile */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -142,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680C9A4E27F9E7FE0084FFDE /* pic1.jpeg in Resources */,
 				6818338927F1EC1300E3CD63 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +172,7 @@
 				6818338027F1EC1200E3CD63 /* AppDelegate.swift in Sources */,
 				6818339427F1EC7700E3CD63 /* FeedViewController.swift in Sources */,
 				6818339F27F1ED8000E3CD63 /* Post.swift in Sources */,
+				6812E21527F582C6002F6599 /* ProfileHeaderView.swift in Sources */,
 				6818338227F1EC1200E3CD63 /* SceneDelegate.swift in Sources */,
 				6818339D27F1ED5C00E3CD63 /* TabBarController.swift in Sources */,
 				6818339827F1EC8A00E3CD63 /* InfoViewController.swift in Sources */,
@@ -288,8 +304,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JS23AVX4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NavIgation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,6 +321,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = anna.NavIgation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,8 +333,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JS23AVX4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NavIgation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -329,6 +350,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = anna.NavIgation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
