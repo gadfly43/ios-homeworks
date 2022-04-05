@@ -97,11 +97,11 @@ class ProfileHeaderView: UIView, UITextFieldDelegate {
         }
 
         required init?(coder: NSCoder) {
-            fatalError("init(coder:) error")
+            fatalError("init(coder:) has not been implemented")
         }
 
         private func drawSelf(){
-            //self.backgroundColor = .lightGray
+    
             
             self.addSubview(self.infoStackView)
             self.addSubview(self.setStatusButton)
